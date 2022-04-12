@@ -30,8 +30,10 @@ Stacktrace:
     @ TryCompile C:\Users\yzh\.julia\dev\TryCompile\src\TryCompile.jl:21
  [10] top-level scope
     @ none:1
-So it failed trying perform CondaPkg.status()
 ```
+
+So it failed trying perform `CondaPkg.status()`
+
 This issue is related with cjdoris/PythonCall.jl#146
 
 When I'm using another pkg to test PackageCompiler (Statistics.jl was used) everything run correctly.
