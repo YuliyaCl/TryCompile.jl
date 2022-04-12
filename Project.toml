@@ -3,6 +3,9 @@ uuid = "eae45900-dfe4-4cb5-a8ed-ed2d9c99180b"
 authors = ["Yzh <iulia.zhivolupova@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+
 [compat]
 julia = "1"
 
